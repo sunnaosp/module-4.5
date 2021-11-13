@@ -1,0 +1,62 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
+
+.header {
+  font-size: xx-large;
+  text-align: center;
+  background: #91c9ff;
+  width: 1800px;
+  margin-left: 50px;
+}
+
+#main {
+  max-width: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91c9ff;
+  outline: none;
+}
+.button:hover {
+  background: #4f95da;
+}
+#addInvoiceForm {
+  margin-left: 250px;
+}
+#filterForm {
+  margin-left: 250px;
+}
+
+#invoice-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: large;
+  font-weight: 400;
+}
+.invoice-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.invoice-list-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #f5cb5c;
+  margin-top: 50px;
+}
+.invoice-list-header p {
+  cursor: pointer;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
